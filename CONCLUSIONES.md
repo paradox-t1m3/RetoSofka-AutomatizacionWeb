@@ -32,7 +32,7 @@ La estructura del proyecto se organizó en capas funcionales que reflejan el dom
 - **Reutilización efectiva**: Interacciones comunes como esperas, clics y validaciones fueron encapsuladas, reduciendo duplicidad.
 - **Datos dinámicos**: JavaFaker evitó el uso excesivo de datos quemados, promoviendo pruebas más robustas y aisladas.
 - **Documentación profesional**: README y estructura del proyecto fueron diseñados para facilitar el onboarding y la colaboración.
-
+- **Uso de datos externos desde Excel**: La integración con Apache POI permitió parametrizar escenarios mediante archivos `.xlsx`, facilitando la gestión de datos de prueba sin modificar el código fuente. Esta práctica mejora la trazabilidad, reduce el acoplamiento y habilita la colaboración con perfiles no técnicos.
 ## 👨‍💻 Autoría
 
 Desarrollado por: **Christian Villegas Suarez**  
