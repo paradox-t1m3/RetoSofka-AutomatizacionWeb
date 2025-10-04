@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/us.abstracta.opencart/features/buyproduct.feature",
+        features = "src/test/resources/features/buyproduct.feature",
         glue = "us.abstracta.opencart.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )

@@ -8,5 +8,6 @@ public class Constants {
     public static final String IGNORE_CERTIFICATES_ERROR_SSL = "--ignore-ssl-errors";
     public static final String REMOTE_ALLOW_ORIGINS = "--remote-allow-origins=*";
     public static final String RESULT = "resultTotal";
+    public static final String RESULT_VIEW_MESSAGE_CART_EMPTY = "messageCartEmpty";
 
 }

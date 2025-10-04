@@ -42,15 +42,10 @@ tasks.withType(JavaCompile) {
 
 tasks.withType(Test) {
     useJUnitPlatform()
-    maxParallelForks = 12
+    maxParallelForks = 5
     systemProperties = System.properties
 
     testLogging.showStandardStreams = true
-
-    retry {
-        maxRetries = 0
-        failOnPassedAfterRetry = true
-    }
 
     finalizedBy("aggregate")
 }
