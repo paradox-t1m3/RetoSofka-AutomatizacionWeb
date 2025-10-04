@@ -14,23 +14,6 @@ import java.util.List;
 import java.util.Locale;
 
 import static us.abstracta.opencart.userinterfaces.CheckoutInterface.*;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.BTN_CONFIRM_ORDER;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.BTN_CONTINUE_YOUR_PERSONAL_DETAILS;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.BTN_DELIVERY_METHOD;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.BTN_PAYMENT_METHOD;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.CHK_ACCEPT_TERM_AND_CONDITIONS;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.DDL_COUNTRY;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.DDL_REGION_STATE;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.ITM_COUNTRY;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.ITM_REGION_STATE;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.LST_COUNTRY;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.LST_REGION_STATE;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.TXA_COMMENTS_ABOUT_ORDER_DELIVERY_METHOD;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.TXT_ADDRESS_1;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.TXT_CITY;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.TXT_CODE_POSTAL;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.TXT_EMAIL;
-import static us.abstracta.opencart.userinterfaces.CheckoutInterface.TXT_TELEPHONE;
 
 public class CompleteCheckoutInteraction implements Interaction {
 
