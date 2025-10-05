@@ -10,6 +10,11 @@ import org.openqa.selenium.edge.EdgeOptions;
 import java.util.Arrays;
 import java.util.EmptyStackException;
 
+/**
+ * Enum for browser setup and execution.
+ * Supports Chrome and Edge with custom options.
+ */
+
 import static us.abstracta.opencart.utils.Constants.*;
 
 public enum DriverEnum {

@@ -11,6 +11,10 @@ import java.util.List;
 
 import static us.abstracta.opencart.userinterfaces.CheckoutInterface.*;
 
+/**
+ * Executes the checkout flow by selecting a user and completing the form.
+ */
+
 public class CheckoutProcessTask implements Task {
     private List<String> info;
 

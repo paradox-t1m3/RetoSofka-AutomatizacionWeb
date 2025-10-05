@@ -11,6 +11,10 @@ import java.util.List;
 import static us.abstracta.opencart.userinterfaces.YourStoreInterface.LBL_CART_EMPTY;
 import static us.abstracta.opencart.utils.Constants.RESULT_VIEW_MESSAGE_CART_EMPTY;
 
+/**
+ * Verifies if the empty cart message matches the expected value from Excel.
+ */
+
 public class TheEmptyCartMessageIsShown implements Question<Boolean> {
     private List<String> rowExcel;
 

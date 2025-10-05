@@ -11,6 +11,10 @@ import us.abstracta.opencart.interactions.waits.WaitMomentInteraction;
 
 import static us.abstracta.opencart.userinterfaces.YourStoreInterface.*;
 
+/**
+ * Adds products to the cart and proceeds to checkout from the store page.
+ */
+
 public class AddItemsToShoopingCartTask implements Task {
 
     @Override
