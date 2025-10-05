@@ -19,6 +19,10 @@ import us.abstracta.opencart.utils.ReadExcel;
 
 import java.util.List;
 
+/**
+ * Step definitions for buying a product, completing checkout, and verifying messages.
+ */
+
 public class BuyProductStepDefinitions {
     @When("the user selects the product to purchase")
     public void theUserSelectsTheProductToPurchase() {

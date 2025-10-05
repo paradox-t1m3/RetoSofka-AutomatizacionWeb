@@ -2,6 +2,10 @@ package us.abstracta.opencart.userinterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
 
+/**
+ * UI locators for the main store page and shopping cart actions.
+ */
+
 public class YourStoreInterface {
     private YourStoreInterface() {//constructor empty
     }

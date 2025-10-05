@@ -9,6 +9,10 @@ import us.abstracta.opencart.interactions.waits.WaitMomentInteraction;
 import static us.abstracta.opencart.userinterfaces.ConfirmOrderInterface.*;
 import static us.abstracta.opencart.utils.Constants.*;
 
+/**
+ * Checks if the displayed success message matches the expected text.
+ */
+
 public class VerifySuccessMesageQuestion implements Question<Boolean> {
 
     private String message;

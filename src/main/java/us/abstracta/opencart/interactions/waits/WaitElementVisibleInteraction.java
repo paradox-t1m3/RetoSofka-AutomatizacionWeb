@@ -8,6 +8,11 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
+/**
+ * Waits until a UI element becomes visible within a given timeout.
+ */
+
+
 public class WaitElementVisibleInteraction implements Interaction {
     private Target target;
     private int seconds;

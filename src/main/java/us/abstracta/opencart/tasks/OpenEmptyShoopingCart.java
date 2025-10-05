@@ -8,6 +8,10 @@ import us.abstracta.opencart.interactions.waits.WaitElementVisibleInteraction;
 
 import static us.abstracta.opencart.userinterfaces.YourStoreInterface.*;
 
+/**
+ * Opens the shopping cart from the home page.
+ */
+
 public class OpenEmptyShoopingCart implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
