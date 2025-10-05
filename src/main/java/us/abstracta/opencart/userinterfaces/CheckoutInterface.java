@@ -2,6 +2,10 @@ package us.abstracta.opencart.userinterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
 
+/**
+ * UI element locators for the checkout process.
+ */
+
 public class CheckoutInterface {
     private CheckoutInterface() {//constructor empty
     }
@@ -35,6 +39,4 @@ public class CheckoutInterface {
     public static final Target BTN_PAYMENT_METHOD = Target.the("Button peyment method").locatedBy("//input[@id='button-payment-method']");
 
     public static final Target BTN_CONFIRM_ORDER = Target.the("Button confirm order").locatedBy("//input[@id='button-confirm']");
-
-
 }

@@ -4,6 +4,10 @@ import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import us.abstracta.opencart.enums.DriverEnum;
 
+/**
+ * Initializes and launches the browser on a given URL.
+ */
+
 public class Driver {
     private Driver(){
     }

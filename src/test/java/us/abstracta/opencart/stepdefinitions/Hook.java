@@ -13,6 +13,10 @@ import us.abstracta.opencart.utils.ReadExcel;
 
 import java.util.List;
 
+/**
+ * Initializes the actor and opens the browser using data from Excel.
+ */
+
 public class Hook {
     @Before
     public void inicializeActor() {

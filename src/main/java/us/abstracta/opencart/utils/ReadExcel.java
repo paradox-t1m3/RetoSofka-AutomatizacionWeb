@@ -9,6 +9,10 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Reads a row from an Excel file using Fillo based on a given ID.
+ */
+
 public class ReadExcel {
     private ReadExcel() {
     }

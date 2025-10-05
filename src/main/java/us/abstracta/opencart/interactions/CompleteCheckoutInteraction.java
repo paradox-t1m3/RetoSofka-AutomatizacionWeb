@@ -15,6 +15,10 @@ import java.util.Locale;
 
 import static us.abstracta.opencart.userinterfaces.CheckoutInterface.*;
 
+/**
+ * Completes the checkout process by filling customer data and submitting the order.
+ */
+
 public class CompleteCheckoutInteraction implements Interaction {
 
     private final Faker faker = new Faker(Locale.of("es-CO"));

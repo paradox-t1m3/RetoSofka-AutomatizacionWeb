@@ -10,6 +10,10 @@ import us.abstracta.opencart.interactions.waits.WaitMomentInteraction;
 
 import static us.abstracta.opencart.userinterfaces.YourStoreInterface.BTN_ADD_TO_CART;
 
+/**
+ * Adds products to the cart by scrolling and clicking if clickable.
+ */
+
 public class AddProductInteraction implements Interaction {
     private Target scrollTarget;
     private Target addToCart;

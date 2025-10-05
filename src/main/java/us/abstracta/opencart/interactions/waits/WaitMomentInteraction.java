@@ -7,6 +7,10 @@ import net.serenitybdd.screenplay.Tasks;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Pauses execution for a specified number of seconds.
+ */
+
 public class WaitMomentInteraction implements Interaction {
 
     private final long seconds;

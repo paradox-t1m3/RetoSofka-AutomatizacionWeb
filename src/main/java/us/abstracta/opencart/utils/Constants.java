@@ -1,5 +1,9 @@
 package us.abstracta.opencart.utils;
 
+/**
+ * Global constants for URL, browser flags, and result keys.
+ */
+
 public class Constants {
     private Constants() {//constructor empty
     }
@@ -9,5 +13,4 @@ public class Constants {
     public static final String REMOTE_ALLOW_ORIGINS = "--remote-allow-origins=*";
     public static final String RESULT = "resultTotal";
     public static final String RESULT_VIEW_MESSAGE_CART_EMPTY = "messageCartEmpty";
-
 }

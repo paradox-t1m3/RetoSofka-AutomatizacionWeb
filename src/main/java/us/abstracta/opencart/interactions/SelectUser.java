@@ -9,6 +9,10 @@ import net.serenitybdd.screenplay.targets.Target;
 
 import java.util.List;
 
+/**
+ * Selects a user from a list by matching the displayed name.
+ */
+
 public class SelectUser implements Interaction {
     private Target listUsers;
     private Target selectUser;
